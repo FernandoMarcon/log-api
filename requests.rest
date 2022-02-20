@@ -1,0 +1,11 @@
+# POST
+http://localhost:4000
+
+POST /log
+{
+				"id":"1",
+				"date":"d1",
+				"level":	"INFO",
+				"source":	"login",
+				"msg":	"this is a log msg"
+}
